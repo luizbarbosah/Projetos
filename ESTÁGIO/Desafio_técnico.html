@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Desafio_estilo.css">
+    <script type="text/javascript" src="Desafio_interatividade.js"></script>
+    <title>Leitor de Código de Barras</title>
+    <style>
+        body{
+            background: rgb(57, 188, 197);
+            color: blue;
+            font-family: 'Times New Roman', Times, serif;
+            size-adjust: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1><center>Leitor de Código de barras</center></h1>
+    <form action="salvar_dados.php" method="post">
+        <fieldset>
+            <legend><strong>Informações do Pedido</strong></legend>    
+            <label for="periodo" id="periodo">Data do Pedido:</label>
+            <input type="date" required/>
+        </fieldset>
+
+        <fieldset>
+            <label for="região_origem">Região de Origem:</label>
+            <select name="região_origem">
+                <option selected="selected">SELECIONE</option>
+                <option value="001 a 099">001 a 099 - Sudeste</option>
+                <option value="100 a 199">100 a 199 - Sul</option>
+                <option value="201 a 299">201 a 299 - Centro-Oeste</option>
+                <option value="300 a 399">300 a 399 - Nordeste</option>
+                <option value="400 a 499">400 a 499 - Norte</option>
+            </select><p></p>     
+        </fieldset>
+
+        <fieldset>
+            <label for="região_destino">Região de Destino:</label>
+            <select name="região_destino" required/>
+                <option selected="selected">SELECIONE</option>
+                <option value="001 a 099">001 a 099 - Sudeste</option>
+                <option value="100 a 199">100 a 199 - Sul</option>
+                <option value="201 a 299">201 a 299 - Centro-Oeste</option>
+                <option value="300 a 399">300 a 399 - Nordeste</option>
+                <option value="400 a 499">400 a 499 - Norte</option>
+            </select><p></p>     
+        </fieldset>
+
+        <fieldset>
+            <label for="cod_loggi">Código Loggi:</label>
+            <select name="cod_loggi" required/>
+                <option selected="selected">SELECIONE</option>
+                <option value="555">555</option>
+            </select><p></p>     
+        </fieldset>
+
+        <fieldset>
+            <label for="cod_vendedor">Código do Vendedor:</label>
+            <input type="number" required/>
+            <p></p>     
+        </fieldset>
+
+        <fieldset>
+            <label for="tipo_produto">Tipo do Produto:</label>
+            <select name="tipo_produto" required/>
+                <option selected="selected">SELECIONE</option>
+                <option value="001">001 - Jóias</option>
+                <option value="111">111 - Livros</option>
+                <option value="333">333 - Eletrônicos</option>
+                <option value="555">555 - Bebidas</option>
+                <option value="888">888 - Brinquedos</option>
+            </select><p></p>     
+        </fieldset><p></p>
+                    
+        <button type="submit" id="salvar" class="salvar" value="salvar"> <b>Salvar</b></button>
+    </form>
+</body>
+</html>

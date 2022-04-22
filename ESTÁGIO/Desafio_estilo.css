@@ -1,0 +1,14 @@
+.salvar{
+    text-align: center;
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #2ad4e0,
+             -6px -6px -12px rgb(22, 61, 190)
+}
