@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+    color: black;
+    font: 15pt normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 50px;
+    box-shadow: 5px 5px 20px coral;
+    margin: 30px auto;
+    width: 1200px;
+    height: 50px;
+    }
+.nome{
+    width: 350px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.e-mail{
+    width: 220px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.telefone{
+    width: 120px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.observação{
+    width: 1130px;
+    font-size: 15px;
+    text-align: justify;
+}
+.salvar{
+    text-align: center;
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #e0822a,
+             -6px -6px 12px #aa4105;
+}

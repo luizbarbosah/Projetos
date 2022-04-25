@@ -1,3 +1,6 @@
+.periodo{
+    font-family: 'Times New Roman', Times, serif;
+}
 .salvar{
     text-align: center;
     width: 9em;
@@ -9,6 +12,10 @@
     position: relative;
     overflow: hidden;
     z-index: 1;
-    box-shadow: 6px 6px 12px #2ad4e0,
-             -6px -6px -12px rgb(22, 61, 190)
+}
+.salvar:hover{
+    background-color: rgb(17, 0, 255);
+}
+input[type=number]::-webkit-inner-spin-button{
+-webkit-appearance: none;
 }
