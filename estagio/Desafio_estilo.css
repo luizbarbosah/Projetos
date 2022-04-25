@@ -1,0 +1,30 @@
+h1{
+    font-size: 30px;
+}
+.campo{
+    width: 30px;
+}
+.cod_completo{
+    width: 130px;
+}
+.salvar{
+    text-align: center;
+    width: 7em;
+    padding:0%;
+    height: 30px;
+    border-radius: 20em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    position:static;
+    overflow: hidden;
+    z-index: 1;
+}
+.salvar:hover{
+    background-color: rgb(86, 133, 202);
+    color: white
+}
+input[type=number]::-webkit-inner-spin-button{
+-webkit-appearance: none;
+}

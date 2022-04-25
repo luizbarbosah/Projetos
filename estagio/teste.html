@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><center>Leitor de Código de Barras</center></h1>
+        <fieldset>
+            <div class="row seven-cols">
+                <div class="col-1">
+                    <label for="região_origem">Região de Origem:</label>
+                    <input id="região_origem" type="number" required/>
+                </div><br>
+                <div class="col-2">
+                    <label for="região_destino">Região de Destino:</label>
+                    <input id="região_destino" type="number" required/>
+                </div><br>
+                <div class="col-3">
+                    <label for="cod_loggi">Cód. Loggi:</label>
+                    <select id="cod_loggi" type="number" name="cod_loggi" required/>
+                        <option selected="selected">SELECIONE</option>
+                        <option value="555">555</option>
+                    </select>
+                </div><br>
+                <div class="col-4">
+                    <label for="cod_vendedor">Cód. do Vendedor:</label>
+                    <input id="cod_vendedor" type="number" name="cod_vendedor" required/>
+                </div><br>
+                <div class="col-5">
+                    <label for="tipo_produto">Tipo do Produto:</label>
+                    <input id="tipo_produto" type="number" name="tipo_produto" required/>
+                </div>
+           </div>
+        </fieldset>
+</body>
+</html>
