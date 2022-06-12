@@ -1,1 +1,1 @@
-let pilotoName = 
+let pilotoName = prompt ("Qual seu nome, piloto?")
