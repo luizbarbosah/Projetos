@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,47 +8,53 @@
     <link rel="stylesheet" href="estilo_validacao.css">
     <script type="text/javascript" src="interatividade.js"></script>
     <title>Validação de Projetos</title>
-  </head>
+</head>
+
 <body>
-    <h1><center>Processo de Validação de Projetos - 2022</center></h1>
+    <h1>
+        <center>Processo de Validação de Projetos - 2022</center>
+    </h1>
     <form action="salvar_dados.php" method="post">
         <fieldset>
-            <legend><strong>Análise Geral</strong></legend><br>    
+            <legend><strong>Análise Geral</strong></legend><br>
             <label for="municipio">Município:</label>
             <select name="municipio2_input">
                 <option selected="selected">SELECIONE</option>
                 <option value="9">ABAIARA</option>
                 <option value="10">ACARAPE</option>
                 <option value="11">ACARAÚ</option>
-            </select><p></p>     
+            </select>
+            <p></p>
             <label for="periodo" id="periodo">Período da Capacitação: inicío </label>
-            <input type="date" required/> final <input type="date"required/>
+            <input type="date" required /> final <input type="date" required />
         </fieldset><br>
 
         <fieldset>
             <legend><strong>Responsáveis pela Capacitação</strong></legend><br>
 
             <label for="coord_pedagogico">Coord. Pedagico:</label></br>
-            
-            <input type="text" maxlength="50" name="nome" class="nome" placeholder= "Nome Completo" required/>
+
+            <input type="text" maxlength="50" name="nome" class="nome" placeholder="Nome Completo" required />
             <label class="contato">Contato:</label>
-            <input type="text" class="telefone" placeholder="(99) 99999-9999" onkeyup="mascara( this, mtel );" maxlength="15" required/>
-            <label >E-mail:</label>
-            <input type="email" class="e-mail" placeholder="name@example.com" required/>
-            <label >Habilitado?</label>
+            <input type="text" class="telefone" placeholder="(99) 99999-9999" onkeyup="mascara( this, mtel );"
+                maxlength="15" required />
+            <label>E-mail:</label>
+            <input type="email" class="e-mail" placeholder="name@example.com" required />
+            <label>Habilitado?</label>
             <select name="habilitado">
                 <option disabled selected value="0">Escolha uma opção</option>
                 <option value="sim">Sim</option>
                 <option value="nao">Não</option>
             </select>
-            
+
             <br><label for="instrutor_1">Instrutor(a):</label></br>
-            
-            <input type="text" maxlength="50" name="nome" class="nome" placeholder= "Nome Completo" required/>
+
+            <input type="text" maxlength="50" name="nome" class="nome" placeholder="Nome Completo" required />
             <label class="contato">Contato:</label>
-            <input type="text" class="telefone" placeholder="(99) 99999-9999" onkeyup="mascara( this, mtel );" maxlength="15" required/>
-            <label >E-mail:</label>
-            <input type="email" class="e-mail" placeholder="name@example.com" required/>
+            <input type="text" class="telefone" placeholder="(99) 99999-9999" onkeyup="mascara( this, mtel );"
+                maxlength="15" required />
+            <label>E-mail:</label>
+            <input type="email" class="e-mail" placeholder="name@example.com" required />
             <label for="habilitado">Habilitado?</label>
             <select name="habilitado">
                 <option disabled selected value="0">Escolha uma opção</option>
@@ -56,11 +63,12 @@
             </select>
 
             <br><label for="instrutor_2">Instrutor(a):</label></br>
-            
-            <input type="text" maxlength="50" name="nome" class="nome" placeholder= "Nome Completo" required/>
+
+            <input type="text" maxlength="50" name="nome" class="nome" placeholder="Nome Completo" required />
             <label class="contato">Contato:</label>
-            <input type="text" class="telefone" placeholder="(99) 99999-9999" onkeyup="mascara( this, mtel );" maxlength="15" required />
-            <label >E-mail:</label>
+            <input type="text" class="telefone" placeholder="(99) 99999-9999" onkeyup="mascara( this, mtel );"
+                maxlength="15" required />
+            <label>E-mail:</label>
             <input type="email" class="e-mail" placeholder="name@example.com" required />
             <label for="habilitado">Habilitado?</label>
             <select name="habilitado">
@@ -86,12 +94,12 @@
             <legend><strong>Observações</strong></legend><br>
 
             <label for="Observação"></label>
-            <textarea class="observação" nome="observação" placeholder= "Descreva..." rows="3"></textarea>
+            <textarea class="observação" nome="observação" placeholder="Descreva..." rows="3"></textarea>
         </fieldset><br>
-            
+
         <button type="submit" class="salvar" value="salvar"> <b>Salvar</b></button>
     </form>
-        <!--
+    <!--
         <?php
                         
             //Constantes para armazemanetos das variáveis de conxão.
@@ -124,4 +132,5 @@
            
         ?> -->
 </body>
+
 </html>
