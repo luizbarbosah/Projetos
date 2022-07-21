@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px; /* Cria espaçamentos entre as extremidades do header */
+    align-items: center; /* Centraliza os itens na vertical e horizontal */
+}
+.logo-rock {
+    width: 40px; 
+}
+.logo-onebitecode {
+    width: 200px;
+}
+.buttons {
+    display: flex;
+    gap: 10px; /* Cria espaçamentos entre os botões */
+}
+.buttonHeader {
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    cursor: pointer; /* Altera o cursor para clicavel */
+    transition: 0.4s; /* Temporizador do efeito */
+}
+.buttonHeader:hover {
+    border-color: #ff0044;
+}
