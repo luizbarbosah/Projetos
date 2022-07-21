@@ -6,8 +6,13 @@ body{
     border-radius: 50px;
     /*box-shadow: 5px 5px 20px coral;*/
     margin: 30px auto;
+<<<<<<< HEAD
     width: 1050px;
     height: 40px;
+=======
+    width: 1200px;
+    height: 50px;
+>>>>>>> 2844d9bf5c1af98912cea27cd760f764f68feb88
 }
 .nome{
     width: 350px;
