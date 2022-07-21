@@ -1,3 +1,9 @@
+.wrapper{
+    padding: 0px;
+    height: 0px;
+    margin: 0px;
+}
+
 html{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
